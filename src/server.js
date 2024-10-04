@@ -9,6 +9,6 @@ app.use('/api/users', userController);
 app.use('/api/content', contentController);
 app.use('/api/card', cardController);
 
-app.listen(3000, () => {
-    console.log('Servidor rodando na porta 3000');
+app.listen(3003, () => {
+    console.log('Servidor rodando na porta 3003');
 })
